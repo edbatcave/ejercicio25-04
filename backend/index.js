@@ -32,7 +32,7 @@ app.use(function(req, res, next) {
 
 app.use(bodyParser.json())
 const PUERTO = 3000;
-
+console.log('Prueba de cambios');
 
 conexion.connect(error=>{
     if(error) throw error;
