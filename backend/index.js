@@ -4,10 +4,10 @@ const client = require('./clientes')
 const mysql = require('mysql2')  
 const conexion = mysql.createConnection(
 {
-host:'localhost',
+host:'bd1-2693505.mysql.database.azure.com',
 database:'EjercicioClientes',
-user:'root',
-password:'',
+user:'heiver',
+password:'12345678Te$',
 })
 
 const express = require('express');
