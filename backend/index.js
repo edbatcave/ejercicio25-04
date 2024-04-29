@@ -5,7 +5,7 @@ const mysql = require('mysql2')
 const conexion = mysql.createConnection(
 {
 host:'bd1-2693505.mysql.database.azure.com',
-database:'ejercicioclienteseduardobalza',
+database: 'ejercicioclienteseduardobalza',
 user:'heiver',
 password:'12345678Te$',
 })
@@ -35,7 +35,7 @@ const PUERTO = 3000;
 
 
 conexion.connect(error=>{
-    if(error) throw error
+    if(error) throw error;
     console.log('Conexion a base de datos exitosa');
 })
 
