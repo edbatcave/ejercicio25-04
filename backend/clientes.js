@@ -2,10 +2,10 @@ const moduleName = "clientes";
 const mysql = require('mysql2')  
 const conexion = mysql.createConnection(
     {
-    host:'localhost',
-    database:'EjercicioClientes',
-    user:'root',
-    password:'',
+    host:'bd1-2693505.mysql.database.azure.com',
+    database:'ejercicioclienteseduardobalza',
+    user:'heiver',
+    password:'12345678Te$',
     })
 // -- LISTAR Cliente --
 function RegisterCliente(app){
