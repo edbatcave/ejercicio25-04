@@ -31,7 +31,7 @@ app.use(function(req, res, next) {
 
 
 app.use(bodyParser.json())
-const PUERTO = 3000;
+const PUERTO = 5200;
 
 
 conexion.connect(error=>{
