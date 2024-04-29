@@ -4,11 +4,11 @@ const client = require('./clientes')
 const mysql = require('mysql2')  
 const conexion = mysql.createConnection(
 {
-host:'bd1-2693505.mysql.database.azure.com',
-database: 'ejercicioclienteseduardobalza',
-user:'heiver',
-password:'12345678Te$',
-})
+    host:'bd1-2693505.mysql.database.azure.com',
+    database:'ejercicioclienteseduardobalza',
+    user:'heiver',
+    password:'12345678Te$',
+    })
 
 const express = require('express');
 const bodyParser = require('body-parser');
